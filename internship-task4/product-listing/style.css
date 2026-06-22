@@ -1,15 +1,16 @@
 body{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    background:linear-gradient(135deg,#667eea,#764ba2);
+    margin:0;
     font-family:Arial;
+    background:linear-gradient(to right,#ff9966,#ff5e62);
 }
 
 .container{
+    padding:40px;
+}
+
+.product{
     background:white;
-    padding:30px;
-    border-radius:15px;
-    width:400px;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
 }
